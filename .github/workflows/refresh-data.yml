@@ -1,0 +1,32 @@
+name: Refresh monthly data
+on:
+  schedule:
+    # Daily at 14:17 Malaysia time, catching delayed monthly releases.
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: refresh-cpi-data
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python refresh.py
+      - name: Commit validated data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/cpi.json dist/prices.json dist/cpi.csv dist/cpi_national.csv dist/divisions.csv dist/update-status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh DOSM CPI and selected item prices"
+            git push
+          fi
