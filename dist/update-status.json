@@ -1,0 +1,32 @@
+{
+  "last_successful_refresh": "2026-11-17T08:16:34.057286+00:00",
+  "cpi_latest": "2026-09-01",
+  "prices_latest": "2026-08-01",
+  "drive_folder": "https://drive.google.com/drive/folders/1WI1UGcwgFKXJdqe08WI5sQTxRSI-ok33",
+  "files": [
+    {
+      "id": "1hNGKoe7Gnb2drzJK1NHbABAze1PKTTFm",
+      "name": "DATABASE PURATA HARGA 100 ITEM JAN 2019 - DIS 2022.xlsx",
+      "kind": "xlsx",
+      "sha256": "acff2e92ab5ad68ea010fa83269347a5b81ac8698d4088348c96acb32b96d69d"
+    },
+    {
+      "id": "1eSiUkRDGIDjVYNBBpgXr96c4d72sWJj_",
+      "name": "DATABASE PURATA HARGA 120  ITEM JAN 2023 - DIS 2023.xlsx",
+      "kind": "xlsx",
+      "sha256": "82086861749a1bb6f1a53c13226701971748808e614eea281072040921d3cf3a"
+    },
+    {
+      "id": "1-yiscFYuypi5-2Eo7dEHbFdj_YPsztUsuZeZ_nb2GIc",
+      "name": "DATABASE PURATA HARGA 120  ITEM JAN 2024 - FEB 2025",
+      "kind": "sheet",
+      "sha256": "c4d5e34bf4d8d5d7f1d03cc8f5302144cee281688ab5af11c1c35757b580e9f4"
+    },
+    {
+      "id": "1cQ4a3XrkpHUoHxNk13uhzTYFdavcxqhy8Tthe6qvdg4",
+      "name": "DATABASE PURATA HARGA 120  ITEM MAC 2025",
+      "kind": "sheet",
+      "sha256": "79e095e2424a0189173021ee5e1374dfcb008bbc41b3b2e1da2a7a8f8b8fd4f0"
+    }
+  ]
+}
