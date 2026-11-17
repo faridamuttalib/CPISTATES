@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.openai/
+inputs/
+drive-folder.html
+*.tar.gz
+*.tmp
