@@ -1,6 +1,6 @@
 {
-  "last_successful_refresh": "2026-11-17T08:16:34.057286+00:00",
-  "cpi_latest": "2026-09-01",
+  "last_successful_refresh": "2026-11-19T15:49:26.211031+00:00",
+  "cpi_latest": "2026-10-01",
   "prices_latest": "2026-08-01",
   "drive_folder": "https://drive.google.com/drive/folders/1WI1UGcwgFKXJdqe08WI5sQTxRSI-ok33",
   "files": [
@@ -20,13 +20,13 @@
       "id": "1-yiscFYuypi5-2Eo7dEHbFdj_YPsztUsuZeZ_nb2GIc",
       "name": "DATABASE PURATA HARGA 120  ITEM JAN 2024 - FEB 2025",
       "kind": "sheet",
-      "sha256": "c4d5e34bf4d8d5d7f1d03cc8f5302144cee281688ab5af11c1c35757b580e9f4"
+      "sha256": "82d9e76937f04089182912e13a00a2d0fe9ea92bd70527e9903c55b90ff9329d"
     },
     {
       "id": "1cQ4a3XrkpHUoHxNk13uhzTYFdavcxqhy8Tthe6qvdg4",
       "name": "DATABASE PURATA HARGA 120  ITEM MAC 2025",
       "kind": "sheet",
-      "sha256": "79e095e2424a0189173021ee5e1374dfcb008bbc41b3b2e1da2a7a8f8b8fd4f0"
+      "sha256": "78f328526f4f63c22528377b453e4d54f60adaa342f537044daf3d85f005de29"
     }
   ]
 }
